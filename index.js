@@ -1,5 +1,6 @@
-const math = require('./math');
-const { add, subtract } = math;
+const data = require("./data.json");
+//const math = require('./math');
+//const { add, subtract } = math;
 //require('./batman');
 //require('./superman');
 //const superHero = require('./superHero');
@@ -18,7 +19,9 @@ const sum2 = add(2, 3);
 console.log(sum);
 console.log(sum2);*/
 
-console.log(math.add(2, 3));
+/*console.log(math.add(2, 3));
 console.log(math.subtract(2, 3));
 console.log(add(2, 3));
-console.log(subtract(2, 3));
+console.log(subtract(2, 3));*/
+
+console.log(data.address);
